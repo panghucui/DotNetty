@@ -2,18 +2,6 @@
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="DotNetty.Transport.Channels.Sockets.TcpSocketChannel" Collapsed="true">
     <Position X="8.75" Y="8" Width="2" />
-    <NestedTypes>
-      <Class Name="DotNetty.Transport.Channels.Sockets.TcpSocketChannel.TcpSocketChannelUnsafe" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>Channels\Sockets\TcpSocketChannel.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Class>
-      <Class Name="DotNetty.Transport.Channels.Sockets.TcpSocketChannel.TcpSocketChannelConfig" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>Channels\Sockets\TcpSocketChannel.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Class>
-    </NestedTypes>
     <TypeIdentifier>
       <HashCode>AARCAgACAAgAAEAAAAFEBCAAAAAAAAKAgAAAEBAFAAQ=</HashCode>
       <FileName>Channels\Sockets\TcpSocketChannel.cs</FileName>
@@ -85,6 +73,29 @@
       <FileName>Channels\Local\LocalServerChannel.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="DotNetty.Transport.Channels.Sockets.TcpServerSocketChannel" Collapsed="true">
+    <Position X="4" Y="6.75" Width="4.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="DotNetty.Transport.Channels.Sockets.TcpServerSocketChannel.TcpServerSocketChannelUnsafe" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Channels\Sockets\TcpServerSocketChannel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="DotNetty.Transport.Channels.Sockets.TcpServerSocketChannel.TcpServerSocketChannelConfig" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Channels\Sockets\TcpServerSocketChannel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CABCAiACAAoCAAAACABEBAAAAAAAAACgggAAEAAEAAQ=</HashCode>
+      <FileName>Channels\Sockets\TcpServerSocketChannel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
   <Interface Name="DotNetty.Transport.Channels.Sockets.ISocketChannel" Collapsed="true">
     <Position X="0.5" Y="2.75" Width="2.5" />
     <TypeIdentifier>
@@ -119,6 +130,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Channels\IServerChannel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DotNetty.Transport.Channels.Sockets.IServerSocketChannel" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Channels\Sockets\IServerSocketChannel.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />
