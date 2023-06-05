@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DotNetty.Transport.Channels.Sockets.TcpSocketChannel" Collapsed="true">
+    <Position X="8.75" Y="8" Width="2" />
+    <NestedTypes>
+      <Class Name="DotNetty.Transport.Channels.Sockets.TcpSocketChannel.TcpSocketChannelUnsafe" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Channels\Sockets\TcpSocketChannel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="DotNetty.Transport.Channels.Sockets.TcpSocketChannel.TcpSocketChannelConfig" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Channels\Sockets\TcpSocketChannel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AARCAgACAAgAAEAAAAFEBCAAAAAAAAKAgAAAEBAFAAQ=</HashCode>
+      <FileName>Channels\Sockets\TcpSocketChannel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DotNetty.Transport.Channels.Sockets.AbstractSocketByteChannel" Collapsed="true">
+    <Position X="8.75" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAiAAAAgCAEAAEAAAIAgAAAAAAAAAAgAAAAABAAA=</HashCode>
+      <FileName>Channels\Sockets\AbstractSocketByteChannel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DotNetty.Transport.Channels.Sockets.AbstractSocketChannel" Collapsed="true">
+    <Position X="8.75" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BEBQBCKgEAKAIBAAgAAFCgAQBQBAgQCmEQAAAwAAAAA=</HashCode>
+      <FileName>Channels\Sockets\AbstractSocketChannel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DotNetty.Transport.Channels.AbstractChannel" Collapsed="true">
+    <Position X="6.25" Y="4" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AEQGQgCSAEoiJgSE0ACARBAphZgQIICggEEAkAAMAGQ=</HashCode>
+      <FileName>Channels\AbstractChannel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DotNetty.Common.Utilities.DefaultAttributeMap" Collapsed="true">
+    <Position X="6.25" Y="2.75" Width="3" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DotNetty.Transport.Channels.Embedded.EmbeddedChannel" Collapsed="true">
+    <Position X="6.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>RCCGChCaCEoAKAACAQAQBABAFJhBCACkwEDAsAAEABw=</HashCode>
+      <FileName>Channels\Embedded\EmbeddedChannel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DotNetty.Transport.Channels.Embedded.SingleThreadedEmbeddedChannel" Collapsed="true">
+    <Position X="4" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BCCGChCaCEoAKAACAQAQBAAAFJhBCACkwEDAsAAEABw=</HashCode>
+      <FileName>Channels\Embedded\SingleThreadedEmbeddedChannel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DotNetty.Transport.Channels.Local.LocalChannel" Collapsed="true">
+    <Position X="11" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAIgwgCiIEtgIADIAABBRAAABAIAAACkgAAAEAAUAEQ=</HashCode>
+      <FileName>Channels\Local\LocalChannel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DotNetty.Transport.Channels.AbstractServerChannel" Collapsed="true">
+    <Position X="13.5" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAgCAAAAAABABAAAAAAAAAAAAAAAAAAEAAQ=</HashCode>
+      <FileName>Channels\AbstractServerChannel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DotNetty.Transport.Channels.Local.LocalServerChannel" Collapsed="true">
+    <Position X="13.5" Y="6.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgQACCAEAoIACAAAAAAAAABAAAAACkgAgAEgAAAEA=</HashCode>
+      <FileName>Channels\Local\LocalServerChannel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DotNetty.Transport.Channels.Sockets.ISocketChannel" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Channels\Sockets\ISocketChannel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DotNetty.Transport.Channels.IChannel" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEQGAAACAAAAIACAEACAQAApgAgAIAAggEEAAAAMAEA=</HashCode>
+      <FileName>Channels\IChannel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DotNetty.Common.Utilities.IAttributeMap" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.IComparable&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="DotNetty.Transport.Channels.Embedded.IEmbeddedChannel" Collapsed="true">
+    <Position X="3.25" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgAAAAAg=</HashCode>
+      <FileName>Channels\Embedded\IEmbeddedChannel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DotNetty.Transport.Channels.IServerChannel" Collapsed="true">
+    <Position X="0.5" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Channels\IServerChannel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

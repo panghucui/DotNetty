@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DotNetty.Common.Concurrency.AbstractExecutorService" Collapsed="true">
+    <Position X="6.25" Y="3.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="DotNetty.Common.Concurrency.AbstractExecutorService.StateActionWithContextTaskQueueNode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Concurrency\AbstractExecutorService.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+      <Class Name="DotNetty.Common.Concurrency.AbstractExecutorService.ActionTaskQueueNode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Concurrency\AbstractExecutorService.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+      <Class Name="DotNetty.Common.Concurrency.AbstractExecutorService.StateActionTaskQueueNode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Concurrency\AbstractExecutorService.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+      <Class Name="DotNetty.Common.Concurrency.AbstractExecutorService.FuncQueueNodeBase&lt;T&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Concurrency\AbstractExecutorService.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+      <Class Name="DotNetty.Common.Concurrency.AbstractExecutorService.FuncSubmitQueueNode&lt;T&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Concurrency\AbstractExecutorService.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="DotNetty.Common.Concurrency.AbstractExecutorService.StateFuncSubmitQueueNode&lt;T&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Concurrency\AbstractExecutorService.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="DotNetty.Common.Concurrency.AbstractExecutorService.StateFuncWithContextSubmitQueueNode&lt;T&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Concurrency\AbstractExecutorService.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAQAAAAAAAAAAAAAAACAAAAAAAAEAAA=</HashCode>
+      <FileName>Concurrency\AbstractExecutorService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DotNetty.Common.Concurrency.AbstractEventExecutor" Collapsed="true">
+    <Position X="6.25" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAIACAAAEAAASAEIAEACAgIAIAAAAEAAQAg=</HashCode>
+      <FileName>Concurrency\AbstractEventExecutor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DotNetty.Common.Concurrency.AbstractScheduledEventExecutor" Collapsed="true">
+    <Position X="6.25" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIBAAQAgAAACBABAAAAAAAAEAAAAAgIAAABAAAAAA=</HashCode>
+      <FileName>Concurrency\AbstractScheduledEventExecutor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DotNetty.Common.Concurrency.SingleThreadEventExecutor" Collapsed="true">
+    <Position X="6.25" Y="7.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABDEAAAsAkICAAUAEAAGACMIGEAhAgDQAOECAUCEkAQ=</HashCode>
+      <FileName>Concurrency\SingleThreadEventExecutor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DotNetty.Common.Concurrency.IExecutorService" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAEAAA=</HashCode>
+      <FileName>Concurrency\IExecutorService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DotNetty.Common.Concurrency.IExecutor" Collapsed="true">
+    <Position X="1.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Concurrency\IExecutor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
